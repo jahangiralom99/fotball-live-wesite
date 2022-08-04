@@ -1,0 +1,230 @@
+
+/* improtent font  */
+body{
+font-family: 'Gentium Book Plus', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+/* header start  */
+header{
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-items: flex-start;
+    margin: 40px 80px;
+    background-color: #161616;
+    height: 650px;
+    border-radius: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* top heading  */
+.top-header{
+    width: 50%;
+}
+/*----------------
+--- heading 
+--------------------- */
+.heading{
+        margin: 0%;
+        padding-left: 100px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 80px;
+}
+/* top blog  */
+.top-blog{
+    margin-left: 100px;
+    margin-right: 300px;
+    color: #FFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+/* image benner  */
+.image-benner{
+    width: 50%;
+}
+/* img tag  */
+.image-benner img{
+   height: 650px;
+}
+
+/* button  */
+.top-blog a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    align-items: flex-start;
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+    gap: 10px;
+}
+/* layout-container  */
+.layout-container{
+    margin-left: 60px;
+    padding-left: 30px;
+    border-radius: 15px;
+    background-color: #161616;
+    height: 330px;
+    width: 400px;
+}
+/* main box  */
+.layout-box{
+    padding-left: 30;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.layout-1{
+    background-color: rgb(244, 63, 9);
+     padding: 22px;
+     border-radius: 15px;
+     text-align: center;
+    
+}
+.layout-2{
+    background-color: #FFF;
+    padding: 22px;
+    border-radius: 15px;
+    text-align: center;
+}
+.layout-3{
+    background-color: #FFF;
+        padding: 22px;
+        border-radius: 15px;
+        text-align: center;
+}
+.layout-1  a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+}
+.layout-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.layout-3  a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+/* main container start  */
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+/* display container main  */
+.display-size{
+   display: flex;
+   flex-direction: ;
+}
+
+
+.world-cap-flag{
+    margin-top: 20px;
+    margin-left: 60px;
+     height: 312px;
+     width: 330px;
+     border: 1px solid wheat;
+    border-radius: 15px;
+    
+}
+/* flag-benner  */
+.flag-benner{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* flag-benner img  */
+.flag-benner img{
+    width: 90px;
+    height: 54px;
+
+}
+/* flage-name-title  */
+.flage-name-title {
+    text-align: center;
+    font-weight: 700;
+    font-weight: 25px;
+}
+/* Time info */
+.time-info{
+    font-weight: 700;
+    font-size: 18px;
+}
+/* start footer  */
+.footer-container {
+    margin: 0;
+    width: 100%vh;
+    height: 490px;
+    background-color: #161616;
+    color: white;
+}
+
+.footer-title {
+    text-align: center;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.document-container {
+    text-align: center;
+}
+
+hr {
+    margin: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+small a {
+    text-decoration: none;
+
+}
+
+/* footer  */
+.fotter-info {
+
+    justify-content: space-evenly;
+    display: flex;
+    padding: 40px;
+    margin-left: auto;
+
+
+
+}
+
+.fotter-info a {
+    text-align: center;
+    text-decoration: none;
+
+    padding: ;
+    color: white;
+}
+
+/* Social info  */
+
+li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
